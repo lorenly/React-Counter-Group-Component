@@ -1,32 +1,63 @@
-.Counter {
-    text-align: center;
-    background: #282c34;
+.counter-group{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
+    margin: 20px;
+}
+
+.counter-group input {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.regButton {
+    font-size: 2rem;
+    width: 100%;
+}
+
+.regenerate {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    color: white;
-    font-size: calc(10px + 2vmin);
-  }
-
-.counter-group input{
-    font-size: 3rem;
+    min-height: 80px
 }
 
-.counter-group button{
-    font-size: 3rem;
+.regenerate-input {
+    margin-bottom: 20px
 }
 
-.regenerate{
+.regenerate span {
+    color: green;
+}
+
+.counter-group{
+    font-size: 3rem;
     display: flex;
     flex-direction: column;
-    min-height:80px;
+    min-height: 100vh;
+    margin: 20px;
 }
 
-.regenerate input{
-    margin-bottom: 20px;
+.counter-group input {
+    font-size: 3rem;
+    text-align: center;
 }
 
-.regenerate span{
+.regButton {
+    font-size: 2rem;
+    width: 100%;
+}
+
+.regenerate {
+    display: flex;
+    flex-direction: column;
+    min-height: 80px
+}
+
+.regenerate-input {
+    margin-bottom: 20px
+}
+
+.regenerate span {
     color: green;
 }

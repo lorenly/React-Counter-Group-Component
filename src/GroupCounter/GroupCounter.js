@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Counter from '../Counter/Counter';
+import './GroupCounter.css';
 
 class GroupCounter extends React.Component {
     constructor(props){

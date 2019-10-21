@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './Counter.css';
 
 class Counter extends React.Component {
     constructor(props){

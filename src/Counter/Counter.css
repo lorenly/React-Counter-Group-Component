@@ -1,0 +1,16 @@
+.Counter {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    font-size: 3rem;
+}
+
+.Counter p {
+  padding: 0px 300px 0px 300px;
+}
+
+.Counter button {
+  width: 200px;
+  font-size: 100em;
+}
