@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <GroupCounter />
+        <GroupCounter defaultCounts={3}/>
       </header>
     </div>
   );
